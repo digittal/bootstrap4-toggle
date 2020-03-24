@@ -106,6 +106,7 @@ EX: Initialize id `chkToggle` with a single line of JavaScript.
 
 Name      |Type       |Default    |Description                 |
 ----------|-----------|----------|----------------------------|
+`label`   |string/html|"On"      |Text of the on and off toggle
 `on`      |string/html|"On"      |Text of the on toggle
 `off`     |string/html|"Off"     |Text of the off toggle
 `size`    |string     |"normal"  |Size of the toggle. Possible values are: `large`, `normal`, `small`, `mini`.
