@@ -1,6 +1,6 @@
 /*\
 |*| ========================================================================
-|*| Bootstrap Toggle: bootstrap4-toggle.js v3.7.0
+|*| Bootstrap Toggle: bootstrap4-toggle.js v3.7.1
 |*| https://gitbrent.github.io/bootstrap4-toggle/
 |*| ========================================================================
 |*| Copyright 2018-2019 Brent Ely
@@ -20,7 +20,7 @@
 		this.render()
 	}
 
-	Toggle.VERSION  = '3.7.0-beta'
+	Toggle.VERSION  = '3.7.1'
 
 	Toggle.DEFAULTS = {
 		on: 'On',
@@ -35,8 +35,8 @@
 
 	Toggle.prototype.defaults = function() {
 		return {
-			on: this.$element.attr('data-on') || Toggle.DEFAULTS.on,
-			off: this.$element.attr('data-off') || Toggle.DEFAULTS.off,
+			on: this.$element.attr('data-label') || this.$element.attr('data-on') || Toggle.DEFAULTS.on,
+			off: this.$element.attr('data-label') || this.$element.attr('data-off') || Toggle.DEFAULTS.off,
 			onstyle: this.$element.attr('data-onstyle') || Toggle.DEFAULTS.onstyle,
 			offstyle: this.$element.attr('data-offstyle') || Toggle.DEFAULTS.offstyle,
 			size: this.$element.attr('data-size') || Toggle.DEFAULTS.size,
@@ -75,10 +75,21 @@
 		})
 		this.$toggle.append($toggleGroup)
 
+		// find hidden parent > show it
+		if (this.$element.is(":hidden")) {
+			parent = this.$element.closest('div').siblings("div:hidden");
+			parent.removeClass('hidden');
+		}
+
 		var width = this.options.width || Math.max($toggleOn.outerWidth(), $toggleOff.outerWidth())+($toggleHandle.outerWidth()/2)
 		var height = this.options.height || Math.max($toggleOn.outerHeight(), $toggleOff.outerHeight())
+
 		$toggleOn.addClass('toggle-on')
 		$toggleOff.addClass('toggle-off')
+
+		// if parent hidden, restore
+		if (parent) parent.addClass('hidden');
+		
 		this.$toggle.css({ width: width, height: height })
 		if (this.options.height) {
 			$toggleOn.css('line-height', $toggleOn.height() + 'px')
