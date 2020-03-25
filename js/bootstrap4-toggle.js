@@ -1,9 +1,9 @@
 /*\
 |*| ========================================================================
-|*| Bootstrap Toggle: bootstrap4-toggle.js v3.8.0 DiGiTTAL
+|*| Bootstrap Toggle: bootstrap4-toggle.js v3.8.0
 |*| https://gitbrent.github.io/bootstrap4-toggle/
 |*| ========================================================================
-|*| Copyright 2018-2019 Brent Ely
+|*| Copyright 2020 Stephane Talbot, DiGiTTAL
 |*| Licensed under MIT
 |*| ========================================================================
 \*/
@@ -20,7 +20,7 @@
 		this.render()
 	}
 
-	Toggle.VERSION  = '3.8.0 DiGiTTAL'
+	Toggle.VERSION  = '3.8.0'
 
 	Toggle.DEFAULTS = {
 		on: 'On',
