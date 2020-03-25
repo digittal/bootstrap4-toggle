@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.8.0](https://github.com/digittal/bootstrap4-toggle/tree/v3.8.0) 2020-03-25
 ### [Full Changelog](https://github.com/digittal/bootstrap4-toggle/compare/v3.7.0...v3.8.0)
+### Added
+- Added option "data-label" replace "data-on" and "data-off" to the same label
+### Changed
+- Added fix for Toggles not sizing when hidden on init. Just need to add a "hidden" class (display:none) to the parent DIV (https://github.com/gitbrent/bootstrap-switch-button/issues/11)
 
 ## [3.7.0](https://github.com/gitbrent/bootstrap4-toggle/tree/v3.7.0) 2019-??-??
 ### [Full Changelog](https://github.com/gitbrent/bootstrap4-toggle/compare/v3.6.0...v3.7.0)
