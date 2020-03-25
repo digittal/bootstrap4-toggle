@@ -1,4 +1,4 @@
-[![MIT Licence](https://img.shields.io/github/license/gitbrent/bootstrap4-toggle.svg)](https://opensource.org/licenses/mit-license.php)   [![Bootstrap 4.2.1](https://img.shields.io/badge/bootstrap-4.3.1-green.svg?style=flat-square)](https://getbootstrap.com/docs/4.1)  [![Known Vulnerabilities](https://snyk.io/test/npm/bootstrap4-toggle/badge.svg)](https://snyk.io/test/npm/bootstrap4-toggle)  [![npm downloads](https://img.shields.io/npm/dm/bootstrap4-toggle.svg)](https://www.npmjs.com/package/bootstrap4-toggle)  [![JSDelivr Badge](https://data.jsdelivr.com/v1/package/gh/gitbrent/bootstrap4-toggle/badge)](https://www.jsdelivr.com/package/gh/gitbrent/bootstrap4-toggle)
+[![MIT Licence](https://img.shields.io/github/license/digittal/bootstrap4-toggle.svg)](https://opensource.org/licenses/mit-license.php)   [![Bootstrap 4.2.1](https://img.shields.io/badge/bootstrap-4.3.1-green.svg?style=flat-square)](https://getbootstrap.com/docs/4.1)  [![Known Vulnerabilities](https://snyk.io/test/npm/bootstrap4-toggle/badge.svg)](https://snyk.io/test/npm/bootstrap4-toggle)  [![npm downloads](https://img.shields.io/npm/dm/bootstrap4-toggle.svg)](https://www.npmjs.com/package/bootstrap4-toggle)  [![JSDelivr Badge](https://data.jsdelivr.com/v1/package/gh/digittal/bootstrap4-toggle/badge)](https://www.jsdelivr.com/package/gh/digittal/bootstrap4-toggle)
 
 # Bootstrap 4 Toggle
 
@@ -9,14 +9,14 @@
 #### Library Distributions
 Project                                                                                    |Description
 -------------------------------------------------------------------------------------------|-------------------------------------------------------
-[bootstrap4-toggle](https://github.com/gitbrent/bootstrap4-toggle)                         | Supports bootstrap4 (requires jQuery)
+[bootstrap4-toggle](https://github.com/digittal/bootstrap4-toggle)                         | Supports bootstrap4 (requires jQuery)
 [bootstrap-switch-button](https://github.com/gitbrent/bootstrap-switch-button)             | Supports bootstrap4+ (ES6 class, no dependencies)
 [bootstrap-switch-button-react](https://github.com/gitbrent/bootstrap-switch-button-react) | Supports bootstrap4+ (React component, no dependencies)
 
 # Demos
-**Demos and API Docs:** https://gitbrent.github.io/bootstrap4-toggle/  
+**Demos and API Docs:** https://digittal.github.io/bootstrap4-toggle/  
 
-![Demo GIF](https://github.com/gitbrent/bootstrap4-toggle/blob/master/doc/bootstrap4-toggle-demo.gif?raw=true)
+![Demo GIF](https://github.com/digittal/bootstrap4-toggle/blob/master/doc/bootstrap4-toggle-demo.gif?raw=true)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -46,12 +46,12 @@ Project                                                                         
 
 ## CDN
 ```html
-<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">  
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/digittal/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">  
+<script src="https://cdn.jsdelivr.net/gh/digittal/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 ```
 
 ## Download
-[Latest GitHub Release](https://github.com/gitbrent/bootstrap4-toggle/releases/latest)
+[Latest GitHub Release](https://github.com/digittal/bootstrap4-toggle/releases/latest)
 
 ## NPM
 ```ksh
