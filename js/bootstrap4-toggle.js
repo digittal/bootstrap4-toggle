@@ -1,7 +1,7 @@
 /*\
 |*| ========================================================================
 |*| Bootstrap Toggle: bootstrap4-toggle.js v3.8.0
-|*| https://gitbrent.github.io/bootstrap4-toggle/
+|*| https://github.com/digittal/bootstrap4-toggle/
 |*| ========================================================================
 |*| Copyright 2020 Stephane Talbot, DiGiTTAL
 |*| Licensed under MIT
