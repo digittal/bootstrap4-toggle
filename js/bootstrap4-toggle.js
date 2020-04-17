@@ -77,7 +77,8 @@
 
 		// find hidden parent > show it
 		if (this.$element.is(":hidden")) {
-			parent = this.$element.closest('div').siblings("div:hidden");
+			parent = this.$element.closest('.hidden');
+			//parent = this.$element.closest('div').siblings("div:hidden");
 			parent.removeClass('hidden');
 		}
 
