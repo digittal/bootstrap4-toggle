@@ -14,7 +14,7 @@ Project                                                                         
 [bootstrap-switch-button-react](https://github.com/gitbrent/bootstrap-switch-button-react) | Supports bootstrap4+ (React component, no dependencies)
 
 # Demos
-**Demos and API Docs:** https://digittal.github.io/bootstrap4-toggle/  
+**Demos and API Docs:** https://github.com/digittal/bootstrap4-toggle/
 
 ![Demo GIF](https://github.com/digittal/bootstrap4-toggle/blob/master/doc/bootstrap4-toggle-demo.gif?raw=true)
 
@@ -46,8 +46,8 @@ Project                                                                         
 
 ## CDN
 ```html
-<link href="https://cdn.jsdelivr.net/gh/digittal/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">  
-<script src="https://cdn.jsdelivr.net/gh/digittal/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/digittal/bootstrap4-toggle@3.8.0/css/bootstrap4-toggle.min.css" rel="stylesheet">  
+<script src="https://cdn.jsdelivr.net/gh/digittal/bootstrap4-toggle@3.8.0/js/bootstrap4-toggle.min.js"></script>
 ```
 
 ## Download
